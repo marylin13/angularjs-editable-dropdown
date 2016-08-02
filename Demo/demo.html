@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script src="../dist/editDropDownDir.min.js"></script>
+<script src="./demo.js"></script>
+<body>
+
+<div ng-app="myApp">
+	<div ng-controller="demo" style="width:300px;position:fixed;top:20px;left:20px">	
+		<p>You selected {{selected}}</p>
+ 		<edit-drop-down options='list' ng-model='selected'></edit-drop-down>
+ 	</div>
+</div>
+
+</body>
+</html>
