@@ -23,7 +23,7 @@ javascript
 
  - Install with bower 
 ```sh
-bower install angularjs-editable-dropbox
+bower install editable-dropdown-angularjs
 ```
 
  - Include angularjs-editable-dropdown.min.js. 
