@@ -11,13 +11,15 @@ javascript
 - angularjs-1.5.8
 
 # Usage
-We use npm for dependency management, run
+1. Include dependencies in html file
 ```sh
-npm install --save editable-dropbox 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 ```
-This will copy the editable-dropbox files into your components folder,along with dependencies.
-Add the css:
+2. Install with bower 
 ```sh
-
+bower install angularjs-editable-dropbox
 ```
-Add the javascript
+3. Include angularjs-editable-dropdown.min.js. It should be located at bower_components/angularjs-editable-dropdown/.
