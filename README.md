@@ -1,5 +1,7 @@
 # angularjs-editable-dropbox
-An bootstrap style dropbox with editable text area. The text area content can be binded with ng-model.
+An bootstrap style dropbox with editable text area. 
+The text area content can be binded with ng-model. 
+User can choose from dropdown list, or edit the text area.
 
 # Dependencies
 css
@@ -22,4 +24,27 @@ javascript
 ```sh
 bower install angularjs-editable-dropbox
 ```
-3. Include angularjs-editable-dropdown.min.js. It should be located at bower_components/angularjs-editable-dropdown/.
+3. Include angularjs-editable-dropdown.min.js. It should be located at bower_components/editable-dropdown-angularjs/dist/angularjs-editable-dropdown.min.js
+
+4. Add module as dependency in js file. Define selected and dropdown list options
+```sh
+angular.module('myApp', ['editableDropdown'])
+.controller('demo', function($scope){
+	$scope.list = ['one', 'two']
+	$scope.selected;
+});
+```
+
+5. Use directive in html file
+```sh
+<div ng-app="myApp">
+	<div ng-controller="demo" style="width:300px;position:fixed;top:20px;left:20px">	
+		<p>You selected {{selected}}</p>
+ 		<editable-dropdown options='list' ng-model='selected'></editable-dropdown>
+ 	</div>
+</div>
+```
+
+
+# Demo 
+Check example under Demo folder.
