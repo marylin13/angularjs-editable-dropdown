@@ -20,13 +20,17 @@ javascript
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 ```
+
 2. Install with bower 
 ```sh
 bower install angularjs-editable-dropbox
 ```
-3. Include angularjs-editable-dropdown.min.js. It should be located at bower_components/editable-dropdown-angularjs/dist/angularjs-editable-dropdown.min.js
 
-4. Add module as dependency in js file. Define selected and dropdown list options
+3. Include angularjs-editable-dropdown.min.js. 
+It should be located at bower_components/editable-dropdown-angularjs/dist/angularjs-editable-dropdown.min.js
+
+4. Add module as dependency in js file. 
+Define selected and dropdown list options.
 ```sh
 angular.module('myApp', ['editableDropdown'])
 .controller('demo', function($scope){
