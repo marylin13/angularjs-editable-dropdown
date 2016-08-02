@@ -13,7 +13,7 @@ javascript
 - angularjs-1.5.8
 
 # Usage
-1. Include dependencies in html file
+ - Include dependencies in html file
 ```sh
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -21,15 +21,15 @@ javascript
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 ```
 
-2. Install with bower 
+ - Install with bower 
 ```sh
 bower install angularjs-editable-dropbox
 ```
 
-3. Include angularjs-editable-dropdown.min.js. 
+ - Include angularjs-editable-dropdown.min.js. 
 It should be located at bower_components/editable-dropdown-angularjs/dist/angularjs-editable-dropdown.min.js
 
-4. Add module as dependency in js file. 
+ - Add module as dependency in js file. 
 Define selected and dropdown list options.
 ```sh
 angular.module('myApp', ['editableDropdown'])
@@ -39,7 +39,7 @@ angular.module('myApp', ['editableDropdown'])
 });
 ```
 
-5. Use directive in html file
+ - Use directive in html file
 ```sh
 <div ng-app="myApp">
 	<div ng-controller="demo" style="width:300px;position:fixed;top:20px;left:20px">	
