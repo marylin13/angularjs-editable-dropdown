@@ -1,5 +1,5 @@
-angular.module('editDropDownDir', [])
-.directive('editDropDown', function() {
+angular.module('editableDropdown', [])
+.directive('editableDropdown', function() {
   return {
     restrict: 'E',
     require: 'ngModel',

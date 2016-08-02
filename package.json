@@ -1,27 +1,24 @@
 {
-  "name": "angularjs-editable-dropbox",
+  "name": "angularjs-editable-dropdown",
   "version": "1.0.0",
-  "description": "An bootstrap style editable dropbox",
+  "description": "An bootstrap style editable dropdown",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lindanXmu/angularjs-editable-dropbox.git"
+    "url": "git@github.com:lindanXmu/angularjs-editable-dropdown.git"
   },
   "keywords": [
     "angularjs",
-    "dropbox",
+    "dropdown",
     "editable",
     "bootstrap"
   ],
   "author": "dlin",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lindanXmu/angularjs-editable-dropbox/issues"
-  },
-  "homepage": "https://github.com/lindanXmu/angularjs-editable-dropbox#readme",
+  "homepage": "https://github.com/lindanXmu/angularjs-editable-dropdown",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
